@@ -1,0 +1,457 @@
+/*
+Theme Name: NTU RSS MainTheme
+Theme URI: https://wordpress.org/themes/twentyseventeen/
+Author: GlebShvydkov
+Author URI: https://wordpress.org/
+Description: Twenty Seventeen brings your site to life with immersive featured images and subtle animations. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyseventeen
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+html,body
+{
+	background-color: #f3f3f3;
+	color: #7b7b7b;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+ }﻿
+
+
+nav {
+	background-color: #cbcbcb;
+}
+
+.navbar{
+	background-color: #989898f2;
+}
+
+.container-fluid{
+	padding: 0 35px;
+
+}
+
+.cf1{
+}
+
+.header{
+	background: url(header.jpg) no-repeat;
+	background-size: cover;
+}
+
+nav li{
+	position: relative;
+	padding: 0 10px;
+	margin-bottom: none;
+}
+
+nav li:hover{
+	margin-bottom: -8px;
+	background-color: #999999;
+}
+
+.nav-active-page{
+	margin-bottom: -8px;
+	border-bottom: 8px solid #ff6262;
+	background-color: #999999;
+}
+
+nav li:active{
+	margin-bottom: -8px;
+	border-bottom: 8px solid #676767;
+	background-color:  #676767;
+}
+
+
+nav>a {
+	color: #fff;
+}
+nav a:hover{
+
+	color: #676767;
+}
+nav a:active{
+	color: #fff;
+}
+
+.logo{
+	background-color: #c3c3c34d;
+	border-radius: 31%;
+	height: auto;
+	width: 260px;
+}
+
+.header{
+	min-height: 100px;
+	background-color: #cbcbcb;
+}
+
+.slider{
+	height: 32vw;
+	background-color: #676767;
+}
+ 
+.line{
+	opacity: .7;
+	position: relative;
+	top: 20px;
+	background-color: #676767;
+	height: 2px;
+}
+
+.sepLine{
+position: absolute; 
+color: #656565; 
+background-color: #f3f3f3; 
+z-index: 2; 
+padding-right: 30px;
+}
+
+
+
+.pinImage{
+	overflow: hidden;
+	height: 15vw;
+	background-color: #575757;
+}
+
+.entry{
+	max-height: 9vw;
+	overflow: hidden;
+}
+
+.spacer{
+}
+
+
+
+.navbar-toggler{
+	z-index: 123;
+}
+
+
+.ourTeam{
+	height: 40vw;
+	background-color: #575757;
+}
+
+.footer{
+	overflow: hidden;
+	color: #fff;
+	background-color: #ff6262;
+}
+
+.callToAction{
+	overflow: hidden;
+	background-color: #575757;
+	height: 11vw;
+}
+
+.ctaText{
+	font-size: 1.4em;
+	color: #fff;
+}
+
+.ctaButton{
+	
+	height: 3vw; 
+	background-color:#ff6262; 
+}
+
+.all_news_button .ctaButton{
+	
+	height: 70px;
+	min-width: 120px;
+	padding-top: 0.32%;
+	background-color:#ff6262; 
+}
+
+.ctaButton:hover{
+	cursor: pointer;
+	background-color: #f55d5d; 
+}
+
+.ctaButton a{
+	font-size: 21px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.ctaButton a:hover{
+	font-size: 21px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.videoBlock{
+	height: 11vw;
+	background-color: #575757;
+
+}
+
+.calendarBlock{
+	min-height: 100px;
+	height: 11vw;
+	background-color: #575757;
+}
+
+.contactUs{
+	margin-left: 20px;
+	margin: 20px;
+	color: #fff;
+	font-size: 1.66vw;
+}
+
+.horizontalLine{
+	width: 0.2vw;
+	height: 5vw;
+	position: absolute;
+
+	background-color: #fff;
+}
+
+.post{
+	width: 100%;
+}
+
+.date{
+	color: #fff;
+}
+
+.footer li {
+	text-decoration: none;
+	list-style-type: none;
+	color: #fff;
+}
+
+.description{
+}
+
+.slider{
+	color: #ff6262;
+
+}
+
+.arrow{
+	position: relative;
+	margin-top: 150%;
+	font-size: 2vw;
+}
+
+.arrow:hover{
+	transition: all .3s ease-in-out;
+	cursor: pointer;
+	color: #ce4e4e;
+}
+
+.logoImage img{
+	width: 30px;
+}
+
+.the_post_thumbnail{
+	width: 100%;
+}
+
+
+.wp-post-image{
+	width: 100%;
+}
+
+.icon img{
+	width: 100%;
+}
+
+.icon{
+	width: 15%;
+	margin: 0 4% 3% 4%;
+}
+
+.icon:hover{
+	transition: all .2s ease-in-out;
+	transform: scale(1.05);
+}
+
+.dropdown-menu{
+	background-color: #cecece;
+}
+
+.dropdown-item:hover{
+	background-color: #b7b7b7;
+}
+
+.dropdown-item:active{
+	background-color: #af9090;
+}
+
+.rounded-circle{
+	filter: grayscale(100%);
+	transition: all .2s ease-in-out;
+}
+
+.rounded-circle:hover{
+ -webkit-transform: scale(1.05);
+	filter: none;
+}
+
+.nav-item{
+	padding-top: .5%;
+}
+
+@media (min-width: 992px) { 
+ }
+
+.member-name{
+	padding: 2%;
+	border-radius: 10%;
+	background-color: #ff6262;
+	width:60%;
+	margin: 0 auto;
+}
+
+/*.post-hover:hover{
+	transition: background-color .2s linear;
+	background-color: #f5f5f552;
+}
+*/
+
+
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: rgba(126, 239, 104, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+  outline: 0 none;
+}
+
+
+/* Images */
+    
+.img-responsive{display: block;max-width: 100%;height: auto;margin: 0px auto;}
+.img-circle { border-radius: 50%; }    
+    
+/* Comments */
+
+textarea, input {border:1px solid #e4e4e4;}
+textarea {width:100%;}
+.comment-list, .children{list-style:none;}
+ul.children {list-style:none;padding-left:0px; margin-left:0px;}
+.comment-wrap { border-bottom: 1px solid #ccc; padding-bottom: 40px; margin-bottom: 50px; position:relative; }
+.comment-wrap .comments-title{padding-top:60px;}
+.comment-wrap .comment-img { float: left; margin-right: 20px; padding-bottom:25px;}
+.comment-author {text-align:left;}
+.comment-reply {position:absolute;top:0px;right:0px;font-style:italic; padding:5px 5px;background:#d85252;}
+.comment-author,.comment-author a{font-size: 14px;text-transform: uppercase; letter-spacing: 2px;margin-bottom:2px;}
+.comment-date{font-size: 10px;text-transform: uppercase; letter-spacing: 2px;font-style:italic;display:block;padding-bottom:7px;}
+.depth-2 .comment-wrap {padding-left:30px;}
+.depth-3 .comment-wrap {padding-left:60px;}
+.depth-4 .comment-wrap {padding-left:90px;}
+.depth-5 .comment-wrap {padding-left:120px;}
+.depth-6 .comment-wrap {padding-left:150px;}
+.depth-7 .comment-wrap {padding-left:180px;}
+.depth-8 .comment-wrap {padding-left:210px;}
+.depth-9 .comment-wrap {padding-left:240px;}
+.depth-10 .comment-wrap {padding-left:270px;}
+#commentform #comment,#commentform #author,#commentform #email,#commentform #url{display:block;width:100%;}
+#commentform input[type="submit"]{display:inline-block;padding:8px 15px;border:1px solid #e4e4e4;font-size: 10px;text-transform: uppercase;letter-spacing: 3px;background: #ff6262; color: #fff;margin-top:15px;}
+#commentform input[type="submit"]:hover {background: #d85252;}
+.title-line{border-top: 1px dotted #ccc;display: block;max-width: 30%;margin: 0 auto 25px;}
+
+/* Responsive */
+
+@media (max-width: 767px) {
+    .comment-list, .children { padding-left: 0px; }
+    .comment-wrap .comment-img { float: none;margin: 0px;width: 100%;padding-bottom: 0px; }
+    .comment-img>img { display: block;margin: 0px auto; }
+    .comment-author, .comment-author a, .comment-date { text-align:center; }
+    .depth-2 .comment-wrap,.depth-3 .comment-wrap,.depth-4 .comment-wrap,.depth-5 .comment-wrap,.depth-6 .comment-wrap,.depth-7 .comment-wrap,.depth-8 .comment-wrap,.depth-9 .comment-wrap,.depth-10 .comment-wrap {padding-left:0px;}
+    .comment-reply { position: relative; text-align: center; display: block; margin-top: 25px;}
+}
+
+table.blueTable {
+  text-align: left;
+  border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+  border: 0px solid #AAAAAA;
+  padding: 10px 3px;
+}
+
+table.blueTable{
+	width: 100%;
+}
+
+table.blueTable tbody td {
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+}
+table.blueTable thead {
+  background: #CCCCCC;
+  background: -moz-linear-gradient(top, #d9d9d9 0%, #d1d1d1 66%, #CCCCCC 100%);
+  background: -webkit-linear-gradient(top, #d9d9d9 0%, #d1d1d1 66%, #CCCCCC 100%);
+  background: linear-gradient(to bottom, #d9d9d9 0%, #d1d1d1 66%, #CCCCCC 100%);
+  border-bottom: 2px solid #BFBFBF;
+}
+table.blueTable thead th {
+  font-size: 15px;
+  font-weight: normal;
+  color: #292929;
+  text-align: center;
+}
+table.blueTable tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  background: #D0E4F5;
+  background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  border-top: 2px solid #444444;
+}
+table.blueTable tfoot td {
+  font-size: 14px;
+}
+table.blueTable tfoot .links {
+  text-align: right;
+}
+table.blueTable tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
