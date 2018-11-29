@@ -1,15 +1,15 @@
 <?php
 /*
-Template Name: Archives
+Template Name: Архіви
 */
 ?>
 
 <?php get_header(); ?>
 
-<div class="display-4">Archives</div>
 
-<div id="content">
-
+<div id="content ">
+	
+	<div class="container my-4">
 	<h2><?php the_title(); ?></h2>
 
 	<?php query_posts('showposts=-1'); ?>
@@ -22,8 +22,7 @@ Template Name: Archives
 			</li>
 		<?php endwhile;?>
 	</ul>
-
+</div>
 </div>
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

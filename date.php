@@ -5,10 +5,10 @@ $query = new WP_Query(array('orderby' => 'post_date', 'order' => 'DESC')); //Ord
 
 // The Loop
 if ($query->have_posts()) {
-    echo '<div class="day-posts">';
-    while ($query->have_posts()) {
-        $query->the_post();
-        echo '<div class="day">';
+	echo '<div class="day-posts">';
+	while ($query->have_posts()) {
+		$query->the_post();
+		echo '<div class="day">';
         the_date('l jS F Y', '<div class="title">', '</div>'); //Formats date, before echo, after echo
         echo '<div class="posts">';
         echo '<div class="post">';
